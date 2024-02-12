@@ -4,7 +4,7 @@
 
 1. Node >= 18.x
 2. Git Bash (Windows users)
-3. Redux DevTools Chrome extension
+3. Redux Dev Tools Chrome extension
 
 ## ✨ Usage
 
@@ -41,7 +41,7 @@ The general functionality of the app will roughly match the one in [this prototy
 
 #### 👉 TASK 2 - Study the API with Postman
 
-When your app is running it exposes and API on `http://localhost:9009/api` with the endpoints below. You should test them out in Postman to understand how they work. If you delete all the quotes, you can reset your server by running `npm run dev` again.
+When your app is running it exposes and API on `http://localhost:9009/api/quotes` with the endpoints below. You should test them out in Postman to understand how they work. If you delete all the quotes, you can reset your server by running `npm run dev` again.
 
 1. GET `/quotes` **returns all quotes from the server**
     - Expects no parameters nor request body
@@ -77,7 +77,7 @@ When your app is running it exposes and API on `http://localhost:9009/api` with 
 
 2. Inside [QuoteForm.js](./frontend/components/QuoteForm.js) use the `useCreateQuoteMutation` hook to POST a new quote to the server.
 
-3. Inside Inside [quotesApi.js](./frontend/state/quotesApi.js) build the functionality needed to DELETE a quote and PUT a change to its `apocryphal` status.
+3. Inside [quotesApi.js](./frontend/state/quotesApi.js) build the functionality needed to DELETE a quote and PUT a change to its `apocryphal` status.
 
 ❗ Note that this task and the next ones can be done in parallel.
 
