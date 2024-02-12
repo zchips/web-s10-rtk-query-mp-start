@@ -85,7 +85,11 @@ When your app is running it exposes and API on `http://localhost:9009/api` with 
 
 Inside [Quotes.js](./frontend/components/Quotes.js) and [QuoteForm.js](./frontend/components/QuoteForm.js), render messages to the screen to inform the user that requests are in flight, and test them out by throttling the speed of the requests in the Network Tab in Chrome (by selecting `Fast 3G` from the dropdown). Design and style these messages however you like!
 
-#### 👉 TASK 7 - Watch the Solution Video
+#### 👉 TASK 7 - Display validation problems
+
+Inside [QuoteForm.js](./frontend/components/QuoteForm.js) display an error message in the JSX if the new quote does not pass server-side validation. This is the scenario that plays out when a user sends a POST request attaching a "quoteText" (or a "quoteAuthor") shorter than 3 characters in length. The frontend purposely does not have any validation other than preventing the submission of a totally empty form.
+
+#### 👉 TASK 8 - Watch the Solution Video
 
 This step is only required if you need help getting started or get stuck at any point. HAVE FUN!
 
