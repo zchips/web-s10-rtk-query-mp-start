@@ -87,7 +87,7 @@ Inside [Quotes.js](./frontend/components/Quotes.js) and [QuoteForm.js](./fronten
 
 #### 👉 TASK 7 - Display validation problems
 
-Inside [QuoteForm.js](./frontend/components/QuoteForm.js) display an error message in the JSX if the new quote does not pass server-side validation. This is the scenario that plays out when a user sends a POST request attaching a "quoteText" (or a "quoteAuthor") shorter than 3 characters in length. The frontend purposely does not have any validation other than preventing the submission of a totally empty form.
+Inside [QuoteForm.js](./frontend/components/QuoteForm.js) render an error message to the screen if the new quote does not pass server-side validation. This is the scenario that plays out when a user sends a POST request attaching a "quoteText" (or a "quoteAuthor") shorter than 3 characters in length. The frontend purposely does not have any validation other than preventing the submission of a totally empty form.
 
 #### 👉 TASK 8 - Watch the Solution Video
 
