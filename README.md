@@ -79,7 +79,7 @@ When your app is running it exposes and API on `http://localhost:9009/api` with 
 
 3. Inside Inside [quotesApi.js](./frontend/state/quotesApi.js) build the functionality needed to DELETE a quote and PUT a change to its `apocryphal` status.
 
-❗ Note that this task and the next one (rendering "in progress" messages) can be done in parallel.
+❗ Note that this task and the next ones can be done in parallel.
 
 #### 👉 TASK 6 - Create messages to show that requests are in progress
 
